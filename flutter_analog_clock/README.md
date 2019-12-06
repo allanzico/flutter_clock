@@ -1,4 +1,4 @@
-# analog_clock
+# flutter_analog_clock
 
 A new Flutter project.
 

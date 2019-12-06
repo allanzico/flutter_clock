@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:analog_clock/clock_body.dart';
+import 'package:flutter_analog_clock/ClockFace.dart';
 
-void main() => runApp(new MyApp());
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return new MaterialApp(
+    return MaterialApp(
       title: 'Analog clock',
-      theme: new ThemeData(
+      theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: new Clock(),
+      home: Clock(),
     );
   }
 }
@@ -25,7 +26,7 @@ class Clock extends StatelessWidget {
         child: new Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            new ClockBody(),
+            ClockFace(),
           ],
         ),
       ),

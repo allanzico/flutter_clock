@@ -1,4 +1,4 @@
-package com.example.analog_clock
+package com.example.flutter_analog_clock
 
 import android.os.Bundle
 
