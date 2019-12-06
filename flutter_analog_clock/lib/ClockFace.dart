@@ -40,7 +40,7 @@ class ClockFace extends StatelessWidget {
                     numberColor: Colors.green,
                     showNumbers: true,
                     textScaleFactor: 1,
-                    showTicks: true,
+                    showTicks: false,
                     tickColor: Colors.green,
                     showDigitalClock: true,
                     digitalClockColor: Colors.black,
